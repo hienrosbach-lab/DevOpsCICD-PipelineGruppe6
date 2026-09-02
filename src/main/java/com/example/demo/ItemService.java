@@ -8,6 +8,7 @@ public class ItemService {
     private final List<Item> items = new ArrayList<>(List.of(
         new Item(1L, "Laptop"),
         new Item(2L, "Server")
+        new Item(3L, "Router")
     ));
 
     public List<Item> getAllItems() { return items; }
